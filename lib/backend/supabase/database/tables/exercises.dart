@@ -24,7 +24,7 @@ class ExercisesRow extends SupabaseDataRow {
   set name(String? value) => setField<String>('name', value);
 
   int get num_sets => getField<int>('num_sets');
-  set job(int value) => setField<int>('num_sets', value);
+  set num_sets(int value) => setField<int>('num_sets', value);
 
   int get num_done => getField<int>('num_done');
   set num_done(int value) => setField<int>('num_done', value);
