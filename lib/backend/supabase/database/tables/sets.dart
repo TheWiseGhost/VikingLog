@@ -12,7 +12,7 @@ class SetsRow extends SupabaseDataRow {
   SetsRow(Map<String, dynamic> data) : super(data);
 
   @override
-  SupabaseTable get table => ExercisesTable();
+  SupabaseTable get table => SetsTable();
 
   int get id => getField<int>('id')!;
   set id(int value) => setField<int>('id', value);
